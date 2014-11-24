@@ -15,7 +15,7 @@ class InterfaceController: WKInterfaceController {
     @IBOutlet weak var watchTimer: WKInterfaceTimer!
     
     var doneTimer: NSTimer?
-    var duration: NSTimeInterval = 3.0 // 60.0 * 3.0  // number of seconds (3 minutes)
+    var duration: NSTimeInterval = 60.0 * 3.0  // number of seconds (3 minutes)
     
     override init(context: AnyObject?) {
         // Initialize variables here.
