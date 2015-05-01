@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6221" systemVersion="14B25" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6213"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3734"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
@@ -10,7 +10,7 @@
             <objects>
                 <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Timer_for_Apple_Watch_Watch_App" customModuleProvider="target">
                     <items>
-                        <timer width="1" alignment="center" verticalAlignment="center" text="3:00" textAlignment="center" format="abbreviated" previewedSeconds="180" id="uVZ-n8-4qT"/>
+                        <timer width="1" alignment="center" verticalAlignment="center" text="3:00" textAlignment="center" previewedSeconds="180" id="uVZ-n8-4qT"/>
                         <button width="1" alignment="left" verticalAlignment="bottom" title="Start" id="v75-mo-G1I">
                             <color key="backgroundColor" red="0.31451996999999998" green="0.36013911749999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>

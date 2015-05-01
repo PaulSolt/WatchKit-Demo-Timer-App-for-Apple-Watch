@@ -17,14 +17,19 @@ class InterfaceController: WKInterfaceController {
     var doneTimer: NSTimer?
     var duration: NSTimeInterval = 60.0 * 3.0  // number of seconds (3 minutes)
     
-    override init(context: AnyObject?) {
-        // Initialize variables here.
-        super.init(context: context)
-        
+    override init() {
+        super.init()
         // Configure interface objects here.
-//        NSLog("%@ init", self)
         println("\(self) init")
     }
+//    override init(context: AnyObject?) {
+//        // Initialize variables here.
+//        super.init(context: context)
+//        
+//        // Configure interface objects here.
+////        NSLog("%@ init", self)
+//        println("\(self) init")
+//    }
 
     override func willActivate() {
         // This method is called when watch view controller is about to be visible to user
